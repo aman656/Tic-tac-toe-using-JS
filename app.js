@@ -274,6 +274,10 @@ function resulting(){
         document.getElementById("eight").disabled=true
         document.getElementById("ninth").disabled=true
     }
+    else if((one=="X" || one=="O")&& (two=="X" || two=="O") && (three=="X" || three=="O") && (four=="X" || four=="O") && (five=="X" || five=="O") && (six=="X" || six=="O") && (seven=="X" || seven=="O") && (ath=="X" || eight=="O") && (nine=="X" || nine=="O")){
+        document.getElementById("res").innerHTML="Match Drawn!"
+
+    }
 
 
 
